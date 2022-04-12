@@ -1,3 +1,5 @@
+## FitzTube
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 This project uses the Collab's YouTube API to build a video playlist app. 
@@ -28,9 +30,10 @@ npm run dev
 ```
 Observe the output to see which port the web server started on. Visit the following web adress on a web browser:
 
-https://localhost/\<port>
+https://localhost/{port}
 
 <br>
+
 **Note:** When running a Node web server, the default port is 3000. If the default port is already being used, the web server will connect to the next available port.
 
 
