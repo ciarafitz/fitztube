@@ -8,7 +8,7 @@ Has ability to:
  * List/view videos fetched from API
  * Create new playlists
  * Add or remove videos from playlists
- * Rearrange videos in a a playlists
+ * Rearrange videos in a playlist
 
 ## Proxy Server
 The API call has been configured to be forwarded through the following proxy server in order to add no-cors policy headers:
@@ -28,7 +28,7 @@ First, run the development server:
 ```bash
 npm run dev
 ```
-Observe the output to see which port the web server started on. Visit the following web adress on a web browser:
+Observe the output to see which port the web server started on. Visit the following web address on a web browser:
 
 https://localhost/{port}
 
