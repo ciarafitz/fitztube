@@ -3,9 +3,10 @@
 // with the video_id of the thumbnail you clicked on
 import React from "react";
 import { useRouter } from "next/router";
-import PlaylistCollection from "./PlaylistCollection";
-import Util from "./Util"
-import HomeButton from "./HomeButton"
+
+import HomeButton from "../components/HomeButton"
+import PlaylistCollection from "../util/PlaylistCollection";
+import Util from "../util/Util"
 
 // Video Component
 export default function YoutubeEmbed() {

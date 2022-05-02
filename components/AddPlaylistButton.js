@@ -1,7 +1,8 @@
 import React from "react";
-import PlaylistCollection from "./PlaylistCollection";
-import Playlist from "./Playlist";
 import Link from "next/link";
+
+import PlaylistCollection from "../util/PlaylistCollection";
+import Playlist from "../util/Playlist";
 
 export default class AddPlaylistButton extends React.Component {
     constructor(props) {

@@ -2,8 +2,9 @@
 // the first one created or routed to other components
 
 import React from "react";
-import VideoList from "./VideoList";
-import AddPlaylistButton from "./AddPlaylistButton";
+import VideoList from "../components/VideoList";
+
+import AddPlaylistButton from "../components/AddPlaylistButton";
 
 export default function App() {
   return (
