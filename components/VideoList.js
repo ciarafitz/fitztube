@@ -5,8 +5,8 @@ import React from "react";
 import Link from "next/link";
 
 import YoutubeThumbnail from "./YoutubeThumbnail";
-import PlaylistCollection from "./PlaylistCollection";
-import Util from "./Util";
+import PlaylistCollection from "../util/PlaylistCollection";
+import Util from "../util/Util";
 
 class VideoList extends React.Component {
   constructor(props) {

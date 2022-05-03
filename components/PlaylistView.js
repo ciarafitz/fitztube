@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "next/link"
 
-import PlaylistCollection from "./PlaylistCollection";
 import YoutubeThumbnail from "./YoutubeThumbnail";
-import Util from "./Util"
+import PlaylistCollection from "../util/PlaylistCollection";
+import Util from "../util/Util"
 
 export default class PlaylistView extends React.Component {
     constructor(props) {
