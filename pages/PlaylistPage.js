@@ -1,8 +1,10 @@
+// Playlist Page
+// localhost:3000/PlaylistPage?playlist= <PLAYLIST NAME>
 import React, {useEffect} from "react";
 import { useRouter } from "next/router";
-import PlaylistCollection from "./PlaylistCollection";
-import PlaylistView from "./PlaylistView";
-import HomeButton from "./HomeButton";
+import PlaylistView from "../components/PlaylistView";
+import HomeButton from "../components/HomeButton";
+import PlaylistCollection from "../util/PlaylistCollection";
 
 export default function PlaylistPage() {
 
