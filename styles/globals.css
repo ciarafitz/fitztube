@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: black;
 }
 
 a {
@@ -14,6 +15,10 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* .Logo {
+  background-image: url(../images/Logo.png);
+} */
 
 .video-responsive {
   overflow: hidden;
@@ -67,6 +72,7 @@ button, .sel {
 .title {
   font-family: 'Comic Sans MS';
   font-size: 48px;
+  color: white;
 
 }
 
